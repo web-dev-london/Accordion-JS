@@ -49,6 +49,12 @@ body {
   content: '+';
   right: 0;
 }
+
+.question.active {
+  background-color: #2079ff;
+  color: white;
+}
+
 .answer {
   padding: 1.5rem;
   line-height: 1.5;
@@ -58,7 +64,7 @@ body {
   transition: 0.4s ease-in;
 }
 
-.content-container.active .answer {
+.answer.active {
   max-height: 15rem;
   opacity: 1;
 }
